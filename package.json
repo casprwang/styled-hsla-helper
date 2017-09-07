@@ -1,0 +1,26 @@
+{
+  "name": "styled-hsla-helper",
+  "version": "1.0.0",
+  "description": "change hsla color for styled-component Edit",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wangsongiam/styled-hsla-helper.git"
+  },
+  "keywords": [
+    "styled",
+    "components",
+    "hsla",
+    "color",
+    "helper"
+  ],
+  "author": "Song Wang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wangsongiam/styled-hsla-helper/issues"
+  },
+  "homepage": "https://github.com/wangsongiam/styled-hsla-helper#readme"
+}
