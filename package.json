@@ -2,9 +2,10 @@
   "name": "styled-hsla-helper",
   "version": "1.0.0",
   "description": "change hsla color for styled-component Edit",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest lib",
+    "build": "babel . --out-dir lib --ignore node_modules lib"
   },
   "repository": {
     "type": "git",
@@ -22,5 +23,10 @@
   "bugs": {
     "url": "https://github.com/wangsongiam/styled-hsla-helper/issues"
   },
-  "homepage": "https://github.com/wangsongiam/styled-hsla-helper#readme"
+  "homepage": "https://github.com/wangsongiam/styled-hsla-helper#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "jest": "^21.0.1"
+  }
 }
