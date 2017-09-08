@@ -1,6 +1,6 @@
 {
   "name": "styled-hsla-helper",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "change hsla color for styled-component Edit",
   "main": "lib/index.js",
   "scripts": {
