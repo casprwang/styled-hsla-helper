@@ -5,7 +5,8 @@
   "main": "lib/index.js",
   "scripts": {
     "test": "jest lib",
-    "build": "babel . --out-dir lib --ignore node_modules lib"
+    "build": "babel . --ignore node_modules lib --watch --out-dir lib",
+    "dev": "jest lib --watch"
   },
   "repository": {
     "type": "git",
